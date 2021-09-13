@@ -16,4 +16,11 @@ public class AppTest {
         String actual = App.generateOutput("Obi-Wan Kenobi", "These aren't the droids you're looking for.");
         Assertions.assertEquals(expected, actual);
     }
+
+    @Test
+    public void testConfucius() {
+        String expected = "Ninja says, \"I'm not seeing enough movement!\"";
+        String actual = App.generateOutput("Ninja", "I'm not seeing enough movement!");
+        Assertions.assertEquals(expected, actual);
+    }
 }

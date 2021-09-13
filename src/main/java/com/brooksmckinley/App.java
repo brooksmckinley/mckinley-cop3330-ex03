@@ -3,6 +3,6 @@ package com.brooksmckinley;
 public class App {
 
     public static String generateOutput(String author, String quote) {
-        return "";
+        return author + " says, \"" + quote + "\"";
     }
 }
